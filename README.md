@@ -1,0 +1,1 @@
+These are manifest files for the [Materia](https://github.com/nana-4/materia-theme) theme.
