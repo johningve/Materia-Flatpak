@@ -12,8 +12,6 @@
       "name": "Materia-light-compact",
       "buildsystem": "simple",
       "build-commands": [
-        "tar --strip-components=1 -xf materia-theme.tar.gz",
-
         "mkdir -pm 755 /usr/share/runtime/share/themes/Materia-light-compact/gtk-3.0",
         "cp src/gtk-3.0/3.22/gtk-light-compact.css /usr/share/runtime/share/themes/Materia-light-compact/gtk-3.0/gtk.css",
         "cp src/gtk-3.0/3.22/gtk-dark-compact.css /usr/share/runtime/share/themes/Materia-light-compact/gtk-3.0/gtk-dark.css",
@@ -21,9 +19,8 @@
       ],
       "sources": [
         {
-            "type": "file",
+            "type": "archive",
             "url": "https://github.com/nana-4/materia-theme/archive/v20171112.tar.gz",
-            "dest-filename": "materia-theme.tar.gz",
             "sha256": "e759b8fe922fc98727e039c44a2048595e387eaf102c9b30c703ed02decb8dc6"
         }
       ]
